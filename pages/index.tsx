@@ -43,7 +43,7 @@ export default function Home() {
     <div className="text-2xl font-bold">Properties</div>
     <div>
       {properties.map((property) => (
-        <Card key={property.id} property={property} />
+        <Card key={property.id} property={property} title={""} />
       ))}
     </div>
   </main>;

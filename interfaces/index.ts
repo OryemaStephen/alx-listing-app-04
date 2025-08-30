@@ -127,3 +127,12 @@ export interface CardProps {
   activeFilter?: string;
   setActiveFilter?: (filter: string) => void;
 }
+
+export interface ReviewSectionProps {
+  propertyId: string;
+}
+
+export interface Review {
+  id: string;
+  comment: string;
+}

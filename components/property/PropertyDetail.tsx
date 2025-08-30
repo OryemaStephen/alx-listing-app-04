@@ -4,6 +4,7 @@ import Image from "next/image";
 import ReviewSection from "./ReviewSection";
 import BookingSection from "./BookingSection";
 
+
 const PropertyDetail: React.FC<{ property: PropertyProps }> = ({ property }) => {
   const [activeTab, setActiveTab] = useState("Description");
 
